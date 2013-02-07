@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>Unity.Mvc4.VB</id>
+        <version>1.0.0-alpha</version>
+        <title>Unity.Mvc4.VB</title>
+        <authors>Paul Hiles (the DLL and original C# bootstraper),Bryan Johns (the vb.net bootstraper)</authors>
+        <owners>Bryan Johns (K4GDW)</owners>
+        <licenseUrl>http://unitymvc3.codeplex.com/license</licenseUrl>
+        <projectUrl>http://unitymvc3.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Unity.Mvc4.VB VB.Net implementation of the code portions of Unity.MVC3 which is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET MVC4.  It is based on Unity.Mvc3.VB but with the code files placed in App_Start to make it follow the newer Mvc4 conventions.</description>
+        <summary>Package library that leverages Paul Hiles' Unity.Mvc3 package for and Mvc4 project in VB.</summary>
+        <releaseNotes />
+        <tags>unity asp.net mvc mvc3 mvc4</tags>
+        <dependencies>
+            <dependency id="Unity.MVC3" version="1.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\README.md" target="content\App_Readme\Unity.Mvc4.README.md" />
+        <file src="..\content\UnityBootstrapper.vb" target="content\App_Start\UnityBootstrapper.vb" />
+        <file src="..\tools\install.ps1" target="tools\install.ps1" />
+    </files>
+</package>
