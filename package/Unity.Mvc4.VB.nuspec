@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Unity.Mvc4.VB</id>
-        <version>1.0.0-alpha</version>
+        <version>1.0.1.0</version>
         <title>Unity.Mvc4.VB</title>
         <authors>Paul Hiles (the DLL and original C# bootstraper),Bryan Johns (the vb.net bootstraper)</authors>
         <owners>Bryan Johns (K4GDW)</owners>
@@ -19,7 +19,7 @@
     </metadata>
     <files>
         <file src="..\README.md" target="content\App_Readme\Unity.Mvc4.README.md" />
-        <file src="..\content\UnityBootstrapper.vb" target="content\App_Start\UnityBootstrapper.vb" />
+        <file src="..\content\App_Start\UnityBootstrapper.vb" target="content\App_Start\UnityBootstrapper.vb" />
         <file src="..\tools\install.ps1" target="tools\install.ps1" />
     </files>
 </package>
